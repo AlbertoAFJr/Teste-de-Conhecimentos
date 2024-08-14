@@ -1,0 +1,66 @@
+
+.top-bar {
+        height: 3px;
+        background-color: rgb(30, 70, 149);
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 80px;
+
+}
+
+form {
+    margin-left: 450px;
+    margin-right: 300px;
+    margin-top: 50px;
+
+}
+
+input[type=text] {
+    padding: 10px;
+    box-shadow: 1px 2px 1px grey;
+
+}
+    
+
+button[type=submit] {
+    background-color: rgb(30, 70, 149);
+    color: azure;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px px grey;
+    
+}
+
+#cabeçalho{
+
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+#grid-valores {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px;
+    margin-left: 480px;
+    margin-right: 495px;
+    margin-top: 50px
+    
+}
+
+.item-valor {
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.botao-deletar {
+    background-color: #e10404;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px grey;
+}
